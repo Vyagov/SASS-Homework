@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Your Movie Guide</title>
+		<link href="font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxfW3ROwZ_QscpbsvvBuF6aTIfl8VZdno"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<div>
+					<h1>Movies</h1>
+				</div>
+				<nav>
+					<ul>
+						<li>Home</li>
+						<li>About</li>
+						<li>Most popular</li>
+						<li>News</li>
+						<li>Contacts</li>
+						<li class="fa fa-search"></li>
+					</ul>
+				</nav>
+			</header>
+			<div>
+				<section id="home">
+					<nav>
+						<ul>
+							<li>Cinema movies</li>
+							<li>TV Series</li>
+							<li>Cartoons</li>
+							<li>Anime</li>
+							<li>New movies</li>
+							<li>HD movies</li>
+						</ul>
+					</nav>
+					<div id="movies">
+						<div class="img">
+							<div id="trailer">
+								<h2 id="h2">The SpongeBob Movie</h2>
+								<p>
+									&#171;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam libero 
+									omnis deleniti est vero facere natus? Neque molestiae provident.&#187;
+								</p>
+								<div>
+									<button class="butt">Learn more</button>
+									<button class="butt">Watch Trailer</button>
+								</div>
+							</div>
+							<img id="img1" src="images/movie1.jpg" width="230px" alt="Movie Cover" />
+							<img id="img2" src="images/movie2.jpg" width="230px" alt="Movie Cover" />
+							<img id="img3" src="images/movie3.jpg" width="230px" alt="Movie Cover" />
+						</div>
+					</div>
+				</section>
+				<section>
+					<div id="about">
+						<h2>Watch your favorite movies online</h2>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+							Eos inventore sunt sequi tempore ullam earum distinctio odit 
+							modi architecto ipsam asperiores repudiandae culpa nihil fugiat 
+							in id deleniti. Repellat vel delectus laboriosam quia eveniet nisi 
+							consequatur veritatis est debitis quod cupiditate similique. Id 
+							molestias saepe culpa!
+						</p>
+						<div id="genre">
+							<ul>
+								<li>Action</li>
+								<li>Advanture</li>
+								<li>Animation</li>
+								<li>Biography</li>
+								<li>Comedy</li>
+								<li>Crime</li>
+								<li>Documentary</li>
+							</ul>
+							<ul>
+								<li>Drama</li>
+								<li>Family</li>
+								<li>Fantasy</li>
+								<li>Game-show</li>
+								<li>History</li>
+								<li>Horror</li>
+								<li>Kids</li>
+							</ul>
+							<ul>
+								<li>Music</li>
+								<li>Musical</li>
+								<li>Mystery</li>
+								<li>News</li>
+								<li>Romance</li>
+								<li>Sci-Fi</li>
+								<li>Short</li>
+							</ul>
+							<ul>
+								<li>Sport</li>
+								<li>Thriller</li>
+								<li>War</li>
+								<li>Western</li>
+							</ul>
+						</div>
+						<div>
+							<button class="butt">Search</button>
+						</div>
+					</div>
+					<div id="moreMovies">
+						<h2>More movies</h2>
+						<div class="articles">
+							<article>
+								<div>
+									<img src="images/img01.jpg" alt="Image 1" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Lorem ipsum dolor</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img02.jpg" alt="Image 2" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Illum in sed</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img03.jpg" alt="Image 3" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Fugiat dolorum</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img04.jpg" alt="Image 4" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Esse ad blanditiis</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img05.jpg" alt="Image 5" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Quia distinctio</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img06.jpg" alt="Image 6" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Beatae qui quaerat</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img07.jpg" alt="Image 7" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Est eligendi nihil</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img08.jpg" alt="Image 8" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Corporis suscipit</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img09.jpg" alt="Image 9" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Placeat blanditiis</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img10.jpg" alt="Image 10" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Sequi magnam</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img11.jpg" alt="Image 11" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Doloremque ipsam</h3>
+								<p>2015</p>
+							</article>
+							<article>
+								<div>
+									<img src="images/img12.jpg" alt="Image 12" />
+									<div>
+										<p>
+											<span>450</span>
+											<span>01:27:34</span>
+											<span>367</span>
+										</p>
+										<p>
+											<span class="fa fa-eye"></span>
+											<span class="fa fa-clock-o"></span>
+											<span class="fa fa-heart"></span>
+										</p>
+									</div>
+								</div>
+								<h3>Explicabo rerum</h3>
+								<p>2015</p>
+							</article>
+						</div>
+						<div>
+							<button class="butt">View More</button>
+						</div>
+					</div>
+				</section>
+				<section id="popular">
+					<h2>Popular</h2>
+					<div>
+						<article>
+							<div>
+								<img src="images/img13.jpg" alt="Image 13" />
+								<div>
+								</div>
+							</div>
+							<h3>Oque penat</h3>
+							<p></p>
+						</article>
+						<article>
+							<div>
+								<img src="images/img14.jpg" alt="Image 14" />
+							</div>
+							<h3>Gena bus et</h3>
+							<p></p>
+						</article>
+						<article>
+							<div>
+								<img src="images/img15.jpg" alt="Image 15" />
+							</div>
+							<h3>Bus et magni</h3>
+							<p></p>
+						</article>
+						<article>
+							<div>
+								<img src="images/img16.jpg" alt="Image 16" />
+							</div>
+							<h3>Sequi magnam</h3>
+							<p></p>
+						</article>
+						<article>
+							<div>
+								<img src="images/img17.jpg" alt="Image 17" />
+							</div>	
+							<h3>Hus et magn</h3>
+							<p></p>
+						</article>
+						<article>
+							<div>
+								<img src="images/img18.jpg" alt="Image 18" />
+							</div>
+							<h3>Uebus dis</h3>
+							<p></p>
+						</article>
+					</div>
+				</section>
+				<section id="news">
+					<div>
+						<h2>Testimonials</h2>
+						<div id="post">
+							<p class="fa fa-angle-left fa-5x"></p>
+							<div>
+								<img src="images/img19.jpg" alt="Man with a hood" />
+								<h3>James B.</h3>
+								<p>Movie fan</p>
+							</div>
+							<p class="fa fa-angle-right fa-5x"></p>
+						</div>
+						<p>
+							"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut veritatis
+						 	modi voluptatem eos sed itaque eum quas inventore iusto saepe reiciendis
+							iure a culpa harum similique ipsam quaerat. Nulla consequuntur."
+						</p>
+					</div>
+				</section>
+				<section id="message">
+					<h2>Mail us</h2>
+					<form action="" method="post">
+						<input type="text" name="name" placeholder="Your Name" />
+						<input type="text" name="email" placeholder="Your E-mail" />
+						<input type="text" name="message" placeholder="Your Message" />
+						<button class="butt">Send</button>
+					</form>
+				</section>
+				<footer>
+					<div id="map"></div>
+					<div id="contact">
+						<p>Movies &copy; 2015 - Privacy Policy</p>
+						<p>Questions? Call Us Toll Free: (012) 123-456-7890</p>
+						<p>
+							<span class="fa fa-google-plus"></span>
+							<span class="fa fa-pinterest"></span>
+							<span class="fa fa-twitter"></span>
+							<span class="fa fa-facebook"></span>
+							<span class="fa fa-instagram"></span>
+						</p>
+					</div>
+				</footer>
+			</div>
+		</div>
+	</body>
+</html>
